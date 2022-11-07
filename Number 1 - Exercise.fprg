@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="JANCARLOPAREDES"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-07 09:42:55 pm"/>
+        <attribute name="created" value="SkFOQ0FSTE9QQVJFREVTO0RFU0tUT1AtNzQ1R1ZOMzsyMDIyLTA5LTA3OzA5OjQwOjU1IHBtOzM0ODQ="/>
+        <attribute name="edited" value="SkFOQ0FSTE9QQVJFREVTO0RFU0tUT1AtNzQ1R1ZOMzsyMDIyLTA5LTA3OzA5OjQyOjU1IHBtOzE7MzU5NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C, D, E" type="Integer" array="False" size=""/>
+            <assign variable="A" expression="20"/>
+            <assign variable="B" expression="25"/>
+            <assign variable="C" expression="30"/>
+            <assign variable="D" expression="35"/>
+            <assign variable="E" expression="40"/>
+            <output expression="&quot;A = &quot; &amp;A" newline="True"/>
+            <output expression="&quot;B = &quot; &amp;B" newline="True"/>
+            <output expression="&quot;C = &quot; &amp;C" newline="True"/>
+            <output expression="&quot;D = &quot; &amp;D" newline="True"/>
+            <output expression="&quot;E = &quot; &amp;E" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

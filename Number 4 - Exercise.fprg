@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="JANCARLOPAREDES"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-07 10:02:17 pm"/>
+        <attribute name="created" value="SkFOQ0FSTE9QQVJFREVTO0RFU0tUT1AtNzQ1R1ZOMzsyMDIyLTA5LTA1OzA4OjQwOjEyIHBtOzM0NzQ="/>
+        <attribute name="edited" value="SkFOQ0FSTE9QQVJFREVTO0RFU0tUT1AtNzQ1R1ZOMzsyMDIyLTA5LTA3OzEwOjAyOjE3IHBtOzI7MzU4MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="PHP, USD, SGD" type="Real" array="False" size=""/>
+            <assign variable="PHP" expression="500"/>
+            <assign variable="USD" expression="PHP / 53.26"/>
+            <assign variable="SGD" expression="PHP / 39.02"/>
+            <output expression="&quot;PHP to USD = &quot; &amp;USD" newline="True"/>
+            <output expression="&quot;PHP to SGD = &quot; &amp;SGD" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
